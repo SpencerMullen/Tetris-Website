@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Capstone</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="nav">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Leaderboard</a>
+            <a href="#">Settings</a>
+        </div>
+
+        <div class="login-options">
+            <a href="./register.html">Register</a>
+            <a href="./login.html">Login</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="singleplayer">
+            <h1 class="gamemode-header">Singleplayer</h1>
+
+            <div class="gamemodes">
+                <button class="gamemode" onclick="window.location.href='./single_player/free_play.html'">Classic</button>
+                <button class="gamemode" onclick="window.location.href='./single_player/sprint.html'">Sprint</button>
+                <button class="gamemode" onclick="window.location.href='./single_player/finesse_practice.html'">Finesse Practice</button>
+            </div>
+        </div>
+
+        <div class="multiplayer">
+            <h1 class="gamemode-header">Multiplayer</h1>
+
+            <div class="gamemodes">
+                <button class="gamemode gamemode-big" onclick="window.location.href='./tetris?type=ranked'">1v1 Ranked</button>
+                <button class="gamemode gamemode-big" onclick="window.location.href='./tetris?type=custom'">1v1 Practice</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
