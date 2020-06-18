@@ -4,6 +4,10 @@ A simple tetris website with singleplayer and multiplayer features
 
 Project Created by Spencer Mullen, Jonathan Choi, Alex Huh
 
+Installation:
+- Clone or download from the repository
+- Use npm install to install the needed node modules
+
 Singleplayer features include:
 - Settings
   - ARR
@@ -30,3 +34,6 @@ Multiplayer features include:
 - 1v1 another user through the website
 - Garbage is sent to the other user based on lines cleared
 - The user that reaches the top of the board loses
+- Requires a server to run
+- Uses websockets from ws.io and express.io to communicate between clients and the server
+- Has garbage lines and opponent actions displayed
