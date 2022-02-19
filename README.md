@@ -2,6 +2,8 @@
 
 A simple tetris website with singleplayer and multiplayer features
 
+To play, go to http://tetris-capstone.herokuapp.com/
+
 Project Created by Spencer Mullen, Jonathan Choi, Alex Huh
 
 Installation:
